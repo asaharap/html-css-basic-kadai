@@ -1,8 +1,11 @@
+body{
+  text-align: center;
+}
 #top{
   width: 800px;
   background-color:#dcc9f4;
-  margin: 20px 0 20px 0;
   text-align: center;
+  margin: 20px auto;
 }
 
 .top-child {
@@ -14,8 +17,9 @@
   position: relative;
   width: 800px;
   height: 800px;
-  margin: 20px 0 20px 0;
+  
   background-color: #ffd9df;
+  margin: 20px auto;
 }
 #middle > div {
   width: 200px;
@@ -37,11 +41,19 @@
   top: 500px;
   left: 500px; 
 }
+#middle-child01, #middle-child02, #middle-child03 {
+  width: 200px;
+  height: 200px;
+  background-color: #87ceeb;
+  margin: 10px;
+}
 
 #bottom {
   width: 800px;
   height: 300px;
   background-color: #87ceeb;
+  margin: 20px auto;
+  
 }
 #bottom > div {
   width: 400px;
